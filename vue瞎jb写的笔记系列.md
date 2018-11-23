@@ -1,3 +1,28 @@
+## vue脚手架
+### vue-cli 3.0使用
+1. 安装node.js,8以上版本。 node:/官网/https://nodejs.org/zh-cn/
+2. node -v 检测node版本
+3. npm install -g @vue/cli or yarn global add @vue/cli
+4. vue -V 检测vue-cli版本
+5. vue create app //创建名为app的项目
+6. Please pick a preset :(Use arrow keys)
+..这里如果你是第一次用3.0版本的话,是没有前两个的，而只有最后两个，这里是让你选的，第一个是默认配置，一般选第二个，自己配置，这里选最后一个
+7. Check the features needed for your project:
+..当你选择后会出现上面图上的东西，这里你可以自由选择用哪些配置，按上下键选择哪一个，按空格键确定，所有的都选择好后，按enter键进行下一步，这里演示，我随便选了几个。
+8. Pick a linter / formatter config: (Use arrow keys)
+..上面这个是问你选择哪个自动化代码格式化检测，配合vscode编辑器的Prettier - Code formatter插件，我选的随后一个。
+9. Pick additional lint features: 
+..这里第一个选项是问你是否保存刚才的配置，选择确定后你下次再创建新目就有你以前选择的配置了，不用重新再配置一遍了。
+10. Where do you prefer placing config for Babel, PostCSS, ESLint, etc(Usearrowkeys) ..上边这俩意思问你像，babel,postcss,eslint这些配置文件放哪？第一个是：放独立文件放置第二个是：放package.json里这里推荐放单独配置文件，选第一个。
+11.  Save this as a preset for future projects? (y/N) 
+..是否将以上这些将此保存为未来项目的预配置吗。
+12. Save preset as: //项目描述。
+13. cd app //进入项目。
+14. npm run serve 启动项目。
+15. npm run build 打包项目。
+16. 3.0 可以新建一个vue.config.js文件 进行项目配置
+## vue-cli3.0结构目录
+* ![图片](https://upload-images.jianshu.io/upload_images/12471895-f9da4ac0459ebc0e.png)
 ## vueX
 ### 安装
 * npm install vuex --save
