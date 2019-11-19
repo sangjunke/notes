@@ -1,4 +1,4 @@
-## mongodb安装和配置
+## mongodb安装和配置(windows)
 ### 安装
 * 官网地址：https://www.mongodb.com/download-center/community
 * 下载完成进行安装
